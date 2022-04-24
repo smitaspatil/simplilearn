@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+</style>
+
+</head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Learners Academy</h1>
+<h3 align="right">Dashboard</h3>
+<form action="dashboard" method="post">
+<table>
+<tr>
+<td><div class="dropdown">
+  <button class="dropbtn">Classes</button>
+  <div class="dropdown-content">
+    <a href="http://localhost:8080/Learners__Academy/1st.html">1st standard</a>
+    <a href="http://localhost:8080/Learners__Academy/2nd.html">2nd standard 2</a>
+    <a href="http://localhost:8080/Learners__Academy/3rd.html">3rd standard</a>
+  </div>
+</div>
+</td>
+<td><div class="dropdown">
+  <button class="dropbtn">Teachers</button>
+  <div class="dropdown-content">
+    <a href="http://localhost:8080/Learners__Academy/ssp.html">Mrs.S.S.Patil</a>
+    <a href="http://localhost:8080/Learners__Academy/sbp.html">Mr.S.B.Patil 2</a>
+    <a href="http://localhost:8080/Learners__Academy/dsp.html">Miss.D.S.Patil</a>
+  </div>
+</div>
+</td>
+<td><div class="dropdown">
+  <button class="dropbtn">Subjects</button>
+  <div class="dropdown-content">
+    <a href="C:\Users\d        s\eclipse-workspace\Java4April\Learners  Academy\Marathi.pdf">Marathi</a>
+    <a href="C:\Users\d        s\eclipse-workspace\Java4April\Learners  Academy\Hindi.pdf">Hindi</a>
+    <a href="C:\Users\d        s\eclipse-workspace\Java4April\Learners  Academy\English.pdf">English</a>
+  </div>
+</div>
+</td>
+
+<td>
+<a href="http://localhost:8080/Learners__Academy/s2c.html" class="button">
+Assign subject to class
+</a>
+</td>
+<td><a href="http://localhost:8080/Learners__Academy/t2c.html" class="button">
+Assign Teacher to classes for subject
+</a>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
